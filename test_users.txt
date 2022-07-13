@@ -1,0 +1,4 @@
+privesc6-UpdateLoginProfile-user
+privesc7-AttachUserPolicy-user
+privesc8-AttachGroupPolicy-user
+privesc9-AttachRolePolicy-user
