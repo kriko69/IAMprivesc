@@ -38,13 +38,19 @@ apt install jq
 ## USO DE LA HERRAMIENTA
 
 ```bash
-git clone repository
+git clone https://github.com/kriko69/IAMprivesc.git
 cd IAMprivesc
 chmod +x IAMprivesc.sh
-./IAMprivesc <user_AWS>
+./IAMprivesc.sh <user_AWS>
 ```
 
 ![privesc](/images/privesc.png)
+
+puedes mandar muchos usuarios a las vez con un bucle:
+
+```bash
+for u in $(cat test_users.txt); do ./IAMprivesc.sh $u; done
+```
 
 ## FEEDBACK
 
